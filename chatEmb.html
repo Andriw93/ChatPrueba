@@ -5,10 +5,20 @@
     .embeddedServiceHelpButton .helpButton .uiButton {
         background-color: #B4433A;
         font-family: "Arial", sans-serif;
+	 position:relative;
     }
     .embeddedServiceHelpButton .helpButton .uiButton:focus {
         outline: 1px solid #005290;
     }
+    .embeddedServiceHelpButton .helpButton .uiButton:before {
+        font-family: FontAwesome;
+    left:-5px;
+    position:absolute;
+    top:0;
+    }
+		
+	
+	
 	</style>
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
